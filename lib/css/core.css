@@ -1,0 +1,49 @@
+body {
+    font-family: helvetica;
+}
+
+
+header {
+    padding: 150px 0px;
+}
+
+header h1 {
+
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2em;
+}
+
+nav {
+    
+}
+
+nav ul {
+    text-align: center;
+    padding:0px;
+}
+nav ul:after {
+    
+}
+
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+nav li a {
+    color: #333333;
+    text-decoration: none;
+}
+
+nav li a:active,
+nav li a:hover {
+    color: orange;
+}
+
+nav li a:visited {
+    text-decoration: none;
+}

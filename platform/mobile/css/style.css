@@ -1,0 +1,198 @@
+/*** Clouds ***/
+.clouds
+{
+    width:100%;
+    height:480px;
+    overflow:hidden;
+}
+#clouds-small
+{
+    width:6000px;
+    height:100%;
+    /*background:url(http://themeforest.s3.amazonaws.com/116_parallax/tutorial-source-files/css/../images/bg-clouds-small.png) repeat-x;*/
+    
+    /*background:url(../images/background.png) repeat-x;*/
+    background:url(http://www.uexel.com/blog/wp-content/uploads/2012/07/progLanguages.jpg) repeat-x;
+    
+}
+#cloud2
+{
+    position:relative;
+    top:-262px;
+}
+#clouds-big
+{
+    /*width:4000px;
+    height:100%;
+    background:url(http://themeforest.s3.amazonaws.com/116_parallax/tutorial-source-files/css/../images/bg-clouds-big.png) repeat-x;*/
+}
+
+
+
+#overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+}
+
+.main-body {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+
+
+.banner 
+{
+    display: none
+}
+
+header h1
+{
+    display: none;
+}
+
+.main-body-inner {
+    width: 400%;
+}
+
+
+.content-header {
+    float: left;
+    width: 25%;
+}
+
+.content-header span {
+    color : #fff;
+    font-family: Segoe UI;
+    padding: 5px;
+    font-size: 3em;
+    display: block;
+}
+
+
+.content-section {
+    width: 50%;
+    float: left;
+}
+
+
+.programme-items {
+    padding: 5px;
+}
+
+
+li.programme-item {
+float: left;
+    margin-bottom: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+li.programme-item a {
+    color: #FFFFFF;
+    display: block;
+    min-height: 1px;
+    text-decoration: none;
+}
+
+
+
+li.programme-item a span.title {
+    background: none repeat scroll 0 0 transparent;
+    display: inline;
+    height: auto;
+    left: 0;
+    line-height: 1.15em;
+    overflow: hidden;
+    position: relative;
+    text-indent: 0;
+    top: 0;
+}
+
+li.programme-item a span.subtitle {
+    background: none repeat scroll 0 0 transparent;
+    display: inline;
+    height: auto;
+    position: static;
+    text-indent: 0;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+.box li {
+    float: left;
+    margin-bottom: 8px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+
+
+.hover-info {
+    display: none;
+}
+
+li a {
+    color: #FFFFFF;
+    display: block;
+    min-height: 1px;
+    text-decoration: none;
+}
+
+li .primary {
+    float: left;
+    margin-right: 8px;
+    position: relative;
+    width: 47.3684%;
+}
+
+li .secondary {
+    float: left;
+    padding: 0;
+    position: relative;
+    width: 45%;
+}
+
+.blq-hide {
+    display: none;
+}
+
+.secondary .subtitle.truncated {
+    font-size: 0.8em;
+}
+
+.primary img {
+    min-height: 30px;
+    position: relative;
+    width: 100%;
+}
+
+.signpost {
+    display: none;
+}
+
+#blq-masthead {
+    
+}
+
+#menu {
+    display: none;
+}

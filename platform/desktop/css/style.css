@@ -1,0 +1,158 @@
+
+body 
+{
+    margin: 0px;
+    padding:0px;
+    /*background: #111;*/
+    background: -moz-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%, rgba(17,17,17,1) 47%, rgba(19,19,19,1) 100%);
+}
+
+.content-container 
+{
+    width: 976px;
+    margin: 0 auto;
+    background-color: #EEE;
+    position: relative;
+    /*box-shadow: 0 0 15px #444;*/
+}
+
+
+
+header
+{
+    float: left;
+    background: #111;
+    width:100%;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%, rgba(17,17,17,1) 100%, rgba(19,19,19,1) 100%); /* FF3.6+ */
+}
+
+
+header:after 
+{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+header h1 
+{
+    margin: 0px;
+    color: #FFF;
+    font-size: 48px;
+    float: left;
+    line-height: 80px;
+    padding-left: 20px;
+}
+
+.banner 
+{
+    overflow:hidden;
+    height: 300px;
+    clear: both;
+}
+
+.banner img 
+{
+    width: 976px;
+    /*margin-top: -40%;*/
+    margin-top: -15%;
+    
+}
+
+
+
+
+
+
+
+
+.content-headers 
+{
+    float:right;
+    
+}
+.content-headers:after 
+{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+.content-header 
+{
+    float:left;
+}
+
+
+
+.content-header 
+{
+    font-size: 20px;
+    line-height: 80px;
+    color: #FFF;
+    padding: 5px 10px;
+    
+}
+
+.content-header:hover 
+{
+    cursor: pointer;
+    color: Orange;
+}
+
+
+.content-sections 
+{
+    
+    background: -moz-radial-gradient(center, ellipse cover, rgba(76,76,76,1) 0%, rgba(17,17,17,1) 100%, rgba(19,19,19,1) 100%); /* FF3.6+ */
+    overflow: hidden;
+}
+
+
+.content-section 
+{
+    position: relative;
+    left: 100%;
+    transition: left .3s;
+    -moz-transition: left .3s;
+}
+
+.content-section.display
+{
+    left: 0%;
+    transition: left .3s;
+    -moz-transition: left .3s;
+}
+
+
+.content-section h2 
+{
+    color: #FFF;
+    padding-left: 20px;
+    float:left;
+}
+
+.content p
+{
+    clear: left;
+    color: #FFF;
+}
+
+.avatar-container 
+{
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin: 40px;
+    box-shadow: 0 0 15px #444, inset 0 0 15px #444;
+}
+
+.avatar-container img 
+{
+    
+}

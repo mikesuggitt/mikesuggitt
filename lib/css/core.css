@@ -1,14 +1,16 @@
 body {
     font-family: helvetica;
+    margin: 0;
+    overflow: hidden;
 }
 
 
 header {
-    padding: 150px 0px;
+    padding: 10% 0;
+    height:100%;
 }
 
 header h1 {
-
     color: #333333;
     text-align: center;
     text-transform: uppercase;
@@ -34,16 +36,54 @@ nav li {
     margin: 10px;
 }
 
-nav li a {
+a {
     color: #333333;
     text-decoration: none;
 }
 
-nav li a:active,
-nav li a:hover {
+a:active,
+a:hover {
     color: orange;
 }
 
 nav li a:visited {
+    text-decoration: none;
+}
+
+
+
+article {
+    height: 100%;
+    width:100%;
+}
+
+article h2 {
+    font-size: 1.6em;
+    text-align: center;
+    margin: 0;
+    padding: 5% 0;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+article h2 .back-to-top {
+    float: right;
+    padding: 0.4em 0;
+    position: relative;
+    left: -0.2em;
+}
+
+article h2 .back-to-top a {
+    font-size: 0.4em;
+    text-decoration: none;
+}
+
+article h2 .back-to-top a:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+article h2 .back-to-top a:visited {
     text-decoration: none;
 }

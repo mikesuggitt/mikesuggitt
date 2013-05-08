@@ -2,6 +2,7 @@ body {
     font-family: helvetica;
     margin: 0;
     overflow: hidden;
+    margin: 10px;
 }
 
 
@@ -69,8 +70,6 @@ article h2 {
 article h2 .back-to-top {
     float: right;
     padding: 0.4em 0;
-    position: relative;
-    left: -0.2em;
 }
 
 article h2 .back-to-top a {
@@ -86,4 +85,26 @@ article h2 .back-to-top a:after {
 
 article h2 .back-to-top a:visited {
     text-decoration: none;
+}
+
+article p {
+    font-size: 1em;
+}
+
+.quote {
+    text-align: center;
+    font-style: italic;
+}
+
+.quote br:before,
+.quote br:after {
+    content: '"';
+}
+
+.quote b {
+    display: none;
+}
+
+.quote a {
+    font-weight: bold;
 }

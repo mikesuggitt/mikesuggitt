@@ -17,6 +17,10 @@
             <div class="quote">
                 <script type="text/javascript" src="http://www.brainyquote.com/link/quotebr.js"></script>
             </div>
+
+            <div class="strip">
+                <div data-replace="platform/desktop/fragments/strip.html"></div>
+            </div>
         </header>
 
 
@@ -34,6 +38,16 @@
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
+
+            <section>
+                <h3>Title A</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </section>
+
+            <section>
+                <h3>Title B</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </section>
         </article>
 
         <article id="contact">
@@ -43,6 +57,10 @@
             </p>
         </article>
 
-
+        <script type="text/javascript" src="lib/js/vendor/jquery.js"></script>
+        <script type="text/javascript" src="lib/js/vendor/ajaxinclude.js"></script>
+        <script type="text/javascript" src="lib/js/vendor/enhance.js"></script>
+        <script type="text/javascript" src="lib/js/enhance.config.js"></script>
+        <script type="text/javascript" src="lib/js/bootstrap.js"></script>
     </body>
 </html>

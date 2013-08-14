@@ -60,6 +60,7 @@ article {
     height: 100%;
     width:100%;
     margin-bottom: 10px;
+    margin:0 auto;
 }
 
 article h2 {
@@ -80,6 +81,15 @@ article h2 .back-to-top a {
     font-size: 0.4em;
     text-decoration: none;
 }
+article h2 .back-to-top a:after {
+    border-color: black transparent;
+    border-style: solid;
+    border-width: 0 4px 4px;
+    content: "";
+    float: right;
+    margin-top: 4px;
+    margin-left: 3px;
+}
 
 article h2 .back-to-top a:after {
     content: "";
@@ -98,6 +108,7 @@ article p {
 .quote {
     text-align: center;
     font-style: italic;
+    margin-bottom: 10px;
 }
 
 .quote br:before,
@@ -111,4 +122,8 @@ article p {
 
 .quote a {
     font-weight: bold;
+}
+
+.strip {
+    text-align: center;
 }
